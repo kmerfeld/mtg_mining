@@ -4,7 +4,7 @@ import json
 from pprint import pprint
 import codecs
 import sys
-
+from get_ability import *
 #create db
 from mtgjson import CardDb
 db = CardDb.from_file(db_file='AllSets.json')
@@ -47,9 +47,11 @@ for item in card_list:
         adjusted_toughness = int(item.toughness)/int(item.cmc)
 
 
-    
+    ability = get_ability(item)  
+
+
     print(item.name)
-    print(adjusted_power, adjusted_toughness, item.subtypes[0], item.colors)
+    print(adjusted_power, adjusted_toughness, item.subtypes[0], ability, item.colors)
 
 
 
