@@ -48,24 +48,7 @@ for item in card_list:
 
 
     ability = get_ability(item)  
-
-
-    #color(class)
-    color = None
-    if "Black" in item.colors[0]:
-        color = 0
-    elif "White" in item.colors[0]:
-        color = 1
-    elif "Blue" in item.colors[0]:
-        color = 2
-    elif "Green" in item.colors[0]:
-        color = 3
-    elif "Red" in item.colors[0]:
-        color = 4
-    else:
-        print("OH NOES")
-
-    print(adjusted_power, adjusted_toughness, item.subtypes[0], ability, color)
+    print(str(adjusted_power) + "," + str(adjusted_toughness) + "," + item.subtypes[0] + "," + ability + "," + item.colors[0])
 
 
 
