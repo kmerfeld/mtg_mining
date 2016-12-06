@@ -1,0 +1,6 @@
+{
+    "a": [1,3,"asdf",true],
+    "b": {
+        "Hello": "world"
+    }
+}
