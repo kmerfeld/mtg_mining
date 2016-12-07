@@ -1,0 +1,259 @@
+<class 'str'>
+## Akroan Jailer
+1,1.0,1.0,Human,Soldier,none,White
+## Ampryn Tactician
+4,0.75,0.75,Human,Soldier,none,White
+## Anointer of Champions
+1,1.0,1.0,Human,Cleric,none,White
+## Archangel of Tithes
+4,0.75,1.25,Angel,,Flying,White
+## Auramancer
+3,0.6666666666666666,0.6666666666666666,Human,Wizard,none,White
+## Aven Battle Priest
+6,0.5,0.5,Bird,Cleric,Flying,White
+## Blessed Spirits
+3,0.6666666666666666,0.6666666666666666,Spirit,,Flying,White
+## Charging Griffin
+4,0.5,0.5,Griffin,,Flying,White
+## Cleric of the Forward Order
+2,1.0,1.0,Human,Cleric,none,White
+## Consul's Lieutenant
+2,1.0,0.5,Human,Soldier,First strike,White
+## Enlightened Ascetic
+2,0.5,0.5,Cat,Monk,none,White
+## Heavy Infantry
+5,0.6,0.8,Human,Soldier,none,White
+## Hixus, Prison Warden
+5,0.8,0.8,Human,Soldier,Flash,White
+## Knight of the Pilgrim's Road
+3,1.0,0.6666666666666666,Human,Knight,none,White
+## Knight of the White Orchid
+2,1.0,1.0,Human,Knight,First strike,White
+## Kytheon, Hero of Akros
+1,2.0,1.0,Human,Soldier,none,White
+## Kytheon's Irregulars
+4,1.0,0.75,Human,Soldier,none,White
+## Patron of the Valiant
+5,0.8,0.8,Angel,,Flying,White
+## Relic Seeker
+2,1.0,1.0,Human,Soldier,none,White
+## Sentinel of the Eternal Watch
+6,0.6666666666666666,1.0,Giant,Soldier,Vigilance,White
+## Stalwart Aven
+3,0.3333333333333333,1.0,Bird,Soldier,Flying,White
+## Topan Freeblade
+2,1.0,1.0,Human,Soldier,Vigilance,White
+## Totem-Guide Hartebeest
+5,0.4,1.0,Antelope,,none,White
+## Vryn Wingmare
+3,0.6666666666666666,0.3333333333333333,Pegasus,,Flying,White
+## War Oracle
+4,0.75,0.75,Human,Cleric,Lifelink,White
+## Yoked Ox
+1,-1,4.0,Ox,,none,White
+## Alhammarret, High Arbiter
+7,0.7142857142857143,0.7142857142857143,Sphinx,,Flying,Blue
+## Aspiring Aeronaut
+4,0.25,0.5,Human,Artificer,Flying,Blue
+## Deep-Sea Terror
+6,1.0,1.0,Serpent,,none,Blue
+## Disciple of the Ring
+5,0.6,0.8,Human,Wizard,none,Blue
+## Faerie Miscreant
+1,1.0,1.0,Faerie,Rogue,Flying,Blue
+## Harbinger of the Tides
+2,1.0,1.0,Merfolk,Wizard,none,Blue
+## Jace, Vryn's Prodigy
+2,-1,1.0,Human,Wizard,none,Blue
+## Jhessian Thief
+3,0.3333333333333333,1.0,Human,Rogue,Prowess,Blue
+## Maritime Guard
+2,0.5,1.5,Merfolk,Soldier,none,Blue
+## Mizzium Meddler
+3,0.3333333333333333,1.3333333333333333,Vedalken,Wizard,Flash,Blue
+## Nivix Barrier
+4,-1,1.0,Illusion,Wall,Flash,Blue
+## Ringwarden Owl
+5,0.6,0.6,Bird,,Flying,Blue
+## Scrapskin Drake
+3,0.6666666666666666,1.0,Zombie,Drake,Flying,Blue
+## Screeching Skaab
+2,1.0,0.5,Zombie,,none,Blue
+## Separatist Voidmage
+4,0.5,0.5,Human,Wizard,none,Blue
+## Sigiled Starfish
+2,-1,1.5,Starfish,,none,Blue
+## Skaab Goliath
+6,1.0,1.5,Zombie,Giant,Trample,Blue
+## Soulblade Djinn
+5,0.8,0.6,Djinn,,Flying,Blue
+## Tower Geist
+4,0.5,0.5,Spirit,,Flying,Blue
+## Watercourser
+3,0.6666666666666666,1.0,Elemental,,none,Blue
+## Whirler Rogue
+4,0.5,0.5,Human,,none,Blue
+## Willbreaker
+5,0.4,0.6,Human,Wizard,none,Blue
+## Blightcaster
+4,0.5,0.75,Human,Wizard,none,Black
+## Catacomb Slug
+5,0.4,1.2,Slug,,none,Black
+## Deadbridge Shaman
+3,1.0,0.3333333333333333,Elf,Shaman,none,Black
+## Despoiler of Souls
+2,1.5,0.5,Horror,,none,Black
+## Erebos's Titan
+4,1.25,1.25,Giant,,none,Black
+## Eyeblight Assassin
+3,0.6666666666666666,0.6666666666666666,Elf,Assassin,none,Black
+## Fetid Imp
+2,0.5,1.0,Imp,,Flying,Black
+## Fleshbag Marauder
+3,1.0,0.3333333333333333,Zombie,Warrior,none,Black
+## Gilt-Leaf Winnower
+5,0.8,0.6,Elf,Warrior,Menace,Black
+## Gnarlroot Trapper
+1,1.0,1.0,Elf,Druid,none,Black
+## Graveblade Marauder
+3,0.3333333333333333,1.3333333333333333,Human,Warrior,Deathtouch,Black
+## Kothophed, Soul Hoarder
+6,1.0,1.0,Demon,,Flying,Black
+## Liliana, Heretical Healer
+3,0.6666666666666666,1.0,Human,Cleric,Lifelink,Black
+## Malakir Cullblade
+2,0.5,0.5,Vampire,Warrior,none,Black
+## Nantuko Husk
+3,0.6666666666666666,0.6666666666666666,Zombie,Insect,none,Black
+## Priest of the Blood Rite
+5,0.4,0.4,Human,Cleric,none,Black
+## Rabid Bloodsucker
+5,0.6,0.4,Vampire,,Flying,Black
+## Returned Centaur
+4,0.5,1.0,Zombie,Centaur,none,Black
+## Revenant
+5,*,*,Spirit,,Flying,Black
+## Shambling Ghoul
+2,1.0,1.5,Zombie,,none,Black
+## Thornbow Archer
+1,1.0,2.0,Elf,Archer,none,Black
+## Undead Servant
+4,0.75,0.5,Zombie,,none,Black
+## Abbot of Keral Keep
+2,1.0,0.5,Human,Monk,Prowess,Red
+## Acolyte of the Inferno
+3,1.0,0.3333333333333333,Human,Monk,none,Red
+## Akroan Sergeant
+3,0.6666666666666666,0.6666666666666666,Human,Soldier,First strike,Red
+## Avaricious Dragon
+4,1.0,1.0,Dragon,,Flying,Red
+## Bellows Lizard
+1,1.0,1.0,Lizard,,none,Red
+## Boggart Brute
+3,1.0,0.6666666666666666,Goblin,Warrior,Menace,Red
+## Chandra, Fire of Kaladesh
+3,0.6666666666666666,0.6666666666666666,Human,Shaman,none,Red
+## Cobblebrute
+4,1.25,0.5,Elemental,,none,Red
+## Embermaw Hellion
+5,0.8,1.0,Hellion,,Trample,Red
+## Enthralling Victor
+4,0.75,0.5,Human,Warrior,none,Red
+## Firefiend Elemental
+4,0.75,0.5,Elemental,,Haste,Red
+## Ghirapur Gearcrafter
+3,0.6666666666666666,0.3333333333333333,Human,Artificer,none,Red
+## Goblin Glory Chaser
+1,1.0,1.0,Goblin,Warrior,none,Red
+## Goblin Piledriver
+2,0.5,1.0,Goblin,Warrior,none,Red
+## Mage-Ring Bully
+2,1.0,1.0,Human,Warrior,Prowess,Red
+## Pia and Kiran Nalaar
+4,0.5,0.5,Human,Artificer,none,Red
+## Prickleboar
+5,0.6,0.6,Boar,,none,Red
+## Scab-Clan Berserker
+3,0.6666666666666666,0.6666666666666666,Human,Berserker,Haste,Red
+## Seismic Elemental
+5,0.8,0.8,Elemental,,none,Red
+## Skyraker Giant
+4,1.0,0.75,Giant,,Reach,Red
+## Subterranean Scout
+2,1.0,0.5,Goblin,Scout,none,Red
+## Thopter Engineer
+3,0.3333333333333333,1.0,Human,Artificer,none,Red
+## Volcanic Rambler
+6,1.0,0.6666666666666666,Elemental,,none,Red
+## Caustic Caterpillar
+1,1.0,1.0,Insect,,none,Green
+## Conclave Naturalists
+5,0.8,0.8,Dryad,,none,Green
+## Dwynen, Gilt-Leaf Daen
+4,0.75,1.0,Elf,Warrior,Reach,Green
+## Dwynen's Elite
+2,1.0,1.0,Elf,Warrior,none,Green
+## Elvish Visionary
+2,0.5,0.5,Elf,Shaman,none,Green
+## Gaea's Revenge
+7,1.1428571428571428,0.7142857142857143,Elemental,,Haste,Green
+## Herald of the Pantheon
+2,1.0,1.0,Centaur,Shaman,none,Green
+## Hitchclaw Recluse
+3,0.3333333333333333,1.3333333333333333,Spider,,Reach,Green
+## Honored Hierarch
+1,1.0,1.0,Human,Druid,none,Green
+## Leaf Gilder
+2,1.0,0.5,Elf,Druid,none,Green
+## Llanowar Empath
+4,0.5,0.5,Elf,Shaman,none,Green
+## Managorger Hydra
+3,0.3333333333333333,0.3333333333333333,Hydra,,Trample,Green
+## Nissa, Vastwood Seer
+3,0.6666666666666666,0.6666666666666666,Elf,Scout,none,Green
+## Orchard Spirit
+3,0.6666666666666666,0.6666666666666666,Spirit,,none,Green
+## Outland Colossus
+5,1.2,1.2,Giant,,none,Green
+## Pharika's Disciple
+4,0.5,0.75,Centaur,Warrior,Deathtouch,Green
+## Rhox Maulers
+5,0.8,0.8,Rhino,Soldier,Trample,Green
+## Skysnare Spider
+6,1.0,1.0,Spider,,Reach,Green
+## Somberwald Alpha
+4,0.75,0.5,Wolf,,none,Green
+## Sylvan Messenger
+4,0.5,0.5,Elf,,Trample,Green
+## Timberpack Wolf
+2,1.0,1.0,Wolf,,none,Green
+## Undercity Troll
+2,1.0,1.0,Troll,,none,Green
+## Valeron Wardens
+3,0.3333333333333333,1.0,Human,Monk,none,Green
+## Vastwood Gorger
+6,0.8333333333333334,1.0,Wurm,,none,Green
+## Woodland Bellower
+6,1.0,0.8333333333333334,Beast,,none,Green
+## Yeva's Forcemage
+3,0.6666666666666666,0.6666666666666666,Elf,Shaman,none,Green
+## Aegis Angel
+6,0.8333333333333334,0.8333333333333334,Angel,,Flying,White
+## Eagle of the Watch
+3,0.6666666666666666,0.3333333333333333,Bird,,Flying,White
+## Serra Angel
+5,0.8,0.8,Angel,,Flying,White
+## Mahamoti Djinn
+6,0.8333333333333334,1.0,Djinn,,Flying,Blue
+## Nightmare
+6,*,*,Nightmare,Horse,Flying,Black
+## Sengir Vampire
+5,0.8,0.8,Vampire,,Flying,Black
+## Fiery Hellhound
+3,0.6666666666666666,0.6666666666666666,Elemental,Hound,none,Red
+## Shivan Dragon
+6,0.8333333333333334,0.8333333333333334,Dragon,,Flying,Red
+## Prized Unicorn
+4,0.5,0.5,Unicorn,,none,Green
+## Terra Stomper
+6,1.3333333333333333,1.3333333333333333,Beast,,Trample,Green
