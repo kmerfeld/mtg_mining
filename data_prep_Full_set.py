@@ -77,7 +77,8 @@ def get_list(item):
 
         ability = get_ability(item)  
         
-        print(str(item.cmc) + "," + str(adjusted_power) + "," + str(adjusted_toughness) + "," + item.subtypes[0] + "," + ability + "," + item.colors[0])
+        #print(str(item.cmc) + "," + str(adjusted_power) + "," + str(adjusted_toughness) + "," + item.subtypes[0] + "," + ability + "," + item.colors[0])
+        print(item.subtypes[0] + "," + ability + "," + item.colors[0])
     except:
         pass
 
