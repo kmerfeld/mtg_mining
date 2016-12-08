@@ -1,13 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import json
-from pprint import pprint
 import codecs
 import sys
 from get_ability import *
 import re
 from mtgjson import CardDb
-
+import fuckit
 
 #create db
 db = CardDb.from_file(db_file='AllSets.json')
@@ -16,7 +15,6 @@ db = CardDb.from_file(db_file='AllSets.json')
 #read in our list of cards to check
 with open('AllSets.json', encoding="utf-8") as f:
     lines = f.read()
-    print(type(lines))
     lines = json.loads(lines)
     #x = str(lines).encode("utf-8")
 #print(x)
@@ -25,8 +23,12 @@ with open('AllSets.json', encoding="utf-8") as f:
 card_list = []
 
 for set_thing in lines.keys():
-    print(set_thing)
+    print("##",set_thing)
+    if set_thing == "UGL":
+        continue
 
+    if set_thing == "pMGD":
+        continue
     for key in lines[set_thing]['cards']:
         #if "<class 'str'>" in key['name']:
         #    continue
@@ -36,8 +38,6 @@ for set_thing in lines.keys():
 
         if "Creature" == card.types[0]:
             try:
-                print(card.name)
-                print(card.colors)
                 if len(card.colors) == 1:
                     card_list.append(card)
             except: 
@@ -47,7 +47,8 @@ for set_thing in lines.keys():
      
 
 #get the values we want from the list of cards
-for item in card_list:
+def get_list(item):
+
     try:
         print("##",item.name)
         if item.power == "*":
@@ -84,3 +85,5 @@ for item in card_list:
         pass
 
 
+for item in card_list:
+    get_list(item)
