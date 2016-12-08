@@ -11,6 +11,8 @@ import fuckit
 #create db
 db = CardDb.from_file(db_file='AllSets.json')
 
+#header
+print("cmc,power,toughness,class,ability,color")
 
 #read in our list of cards to check
 with open('AllSets.json', encoding="utf-8") as f:
@@ -23,7 +25,7 @@ with open('AllSets.json', encoding="utf-8") as f:
 card_list = []
 
 for set_thing in lines.keys():
-    print("##",set_thing)
+    #print("##",set_thing)
     if set_thing == "UGL":
         continue
 
@@ -50,7 +52,7 @@ for set_thing in lines.keys():
 def get_list(item):
 
     try:
-        print("##",item.name)
+        #print("##",item.name)
         if item.power == "*":
             adjusted_power = "*"
         elif item.power == "0":
@@ -58,6 +60,7 @@ def get_list(item):
         elif "+" in item.power:
             value = item.power.split("+")
             adjusted_power = int(value[0]) / int(item.cmc)
+            adjusted_power = int(value[0])
         
         else:
             adjusted_power =  int(item.power)/int(item.cmc) 
@@ -69,7 +72,7 @@ def get_list(item):
         elif "+" in item.toughness:
             value = item.toughness.split("+")
             adjusted_toughness = int(value[0]) / int(item.cmc)
-        
+            adjusted_toughness = int(value[0])
 
         else:
             adjusted_toughness = int(item.toughness)/int(item.cmc)
@@ -80,7 +83,7 @@ def get_list(item):
 
         ability = get_ability(item)  
         
-        print(str(item.cmc) + "," + str(adjusted_power) + "," + str(adjusted_toughness) + "," + item.subtypes[0] + "," + tf  + "," + ability + "," + item.colors[0])
+        print(str(item.cmc) + "," + str(adjusted_power) + "," + str(adjusted_toughness) + "," + item.subtypes[0] +  "," + ability + "," + item.colors[0])
     except:
         pass
 
