@@ -51,14 +51,10 @@ def get_list(item):
     
     try:
         cmc_rate = ""
-        if item.power == "*":
-            adjusted_power = "*"
-        elif "+" in item.power:
-            value = item.power.split("+")
-            adjusted_power = int(value[0])
-        
+        if "*" in item.power:
+            cmc_rate = "*"
         else:
-            adjusted_power =  (int(item.power) + int(item.toughness))/cmc
+            cmc_rate =  (int(item.power) + int(item.toughness))/int(item.cmc)
 
         
         tf = ""
@@ -68,7 +64,7 @@ def get_list(item):
         ability = get_ability(item)  
         
         #print(str(item.cmc) + "," + str(adjusted_power) + "," + str(adjusted_toughness) + "," + item.subtypes[0] + "," + ability + "," + item.colors[0])
-        print(cmc + "," + item.subtypes[0] + "," + ability + "," + item.colors[0])
+        print(str(cmc_rate) + "," + item.subtypes[0] + "," + ability + "," + item.colors[0])
     except:
         pass
 
