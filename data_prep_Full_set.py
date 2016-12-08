@@ -11,7 +11,8 @@ import fuckit
 #create db
 db = CardDb.from_file(db_file='AllSets.json')
 
-print("cmc,power,toughness,race,ability,color")
+#print("cmc,power,toughness,race,ability,color")
+print("race,ability,color")
 
 #read in our list of cards to check
 with open('AllSets.json', encoding="utf-8") as f:
