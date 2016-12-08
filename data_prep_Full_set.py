@@ -11,21 +11,17 @@ import fuckit
 #create db
 db = CardDb.from_file(db_file='AllSets.json')
 
-#header
-print("cmc,power,toughness,class,ability,color")
+print("cmc,power,toughness,race,ability,color")
 
 #read in our list of cards to check
 with open('AllSets.json', encoding="utf-8") as f:
     lines = f.read()
     lines = json.loads(lines)
     #x = str(lines).encode("utf-8")
-#print(x)
-#print(str(lines['cards']).encode('utf-8'))
 #getlist of cards
 card_list = []
 
 for set_thing in lines.keys():
-    #print("##",set_thing)
     if set_thing == "UGL":
         continue
 
@@ -52,30 +48,28 @@ for set_thing in lines.keys():
 def get_list(item):
 
     try:
-        #print("##",item.name)
         if item.power == "*":
             adjusted_power = "*"
         elif item.power == "0":
-            adjusted_power = -1
+            adjusted_power = "0"
         elif "+" in item.power:
             value = item.power.split("+")
-            adjusted_power = int(value[0]) / int(item.cmc)
             adjusted_power = int(value[0])
         
         else:
-            adjusted_power =  int(item.power)/int(item.cmc) 
+            adjusted_power =  int(item.power) 
 
         if item.toughness == "*":
             adjusted_toughness = "*"
         elif item.toughness == "0":
-            adjusted_toughness = -1
+            adjusted_toughness = "0"
         elif "+" in item.toughness:
             value = item.toughness.split("+")
-            adjusted_toughness = int(value[0]) / int(item.cmc)
             adjusted_toughness = int(value[0])
+        
 
         else:
-            adjusted_toughness = int(item.toughness)/int(item.cmc)
+            adjusted_toughness = int(item.toughness)
         
         tf = ""
         if len(item.subtypes) == 2:
@@ -83,7 +77,7 @@ def get_list(item):
 
         ability = get_ability(item)  
         
-        print(str(item.cmc) + "," + str(adjusted_power) + "," + str(adjusted_toughness) + "," + item.subtypes[0] +  "," + ability + "," + item.colors[0])
+        print(str(item.cmc) + "," + str(adjusted_power) + "," + str(adjusted_toughness) + "," + item.subtypes[0] + "," + ability + "," + item.colors[0])
     except:
         pass
 
